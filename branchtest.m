@@ -2,3 +2,5 @@
 // I’m editing on branch master.
 
 // conflict fixed.
+
+// line on m.
