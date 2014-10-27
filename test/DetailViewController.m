@@ -43,4 +43,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) buttonClick {
+    NSLog(@"Button clicked!");
+}
+
 @end
