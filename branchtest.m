@@ -1,6 +1,8 @@
 // I'm on branch dev.
 // I’m editing on branch master.
 
-// conflict fixed.
+// line on master.
 
-// line on m.
+// I'm a new line on dev.
+
+// Now we are together.
