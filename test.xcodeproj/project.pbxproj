@@ -16,6 +16,7 @@
 		2FD5E14D19FD4A2F00ABDD0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD5E14C19FD4A2F00ABDD0A /* Images.xcassets */; };
 		2FD5E15019FD4A2F00ABDD0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD5E14E19FD4A2F00ABDD0A /* LaunchScreen.xib */; };
 		2FD5E15C19FD4A3000ABDD0A /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5E15B19FD4A3000ABDD0A /* testTests.m */; };
+		2FDEA3491A028B5800CEAC43 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDEA3481A028B5800CEAC43 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		2FD5E15519FD4A3000ABDD0A /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD5E15A19FD4A3000ABDD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FD5E15B19FD4A3000ABDD0A /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		2FDEA3471A028B5800CEAC43 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2FDEA3481A028B5800CEAC43 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				2FD5E14E19FD4A2F00ABDD0A /* LaunchScreen.xib */,
 				2FD5E14019FD4A2F00ABDD0A /* test.xcdatamodeld */,
 				2FD5E13919FD4A2F00ABDD0A /* Supporting Files */,
+				2FDEA3471A028B5800CEAC43 /* TableViewCell.h */,
+				2FDEA3481A028B5800CEAC43 /* TableViewCell.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD5E14819FD4A2F00ABDD0A /* DetailViewController.m in Sources */,
+				2FDEA3491A028B5800CEAC43 /* TableViewCell.m in Sources */,
 				2FD5E14519FD4A2F00ABDD0A /* MasterViewController.m in Sources */,
 				2FD5E13F19FD4A2F00ABDD0A /* AppDelegate.m in Sources */,
 				2FD5E13C19FD4A2F00ABDD0A /* main.m in Sources */,
@@ -422,6 +428,7 @@
 				2FD5E16119FD4A3000ABDD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FD5E16219FD4A3000ABDD0A /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				2FD5E16419FD4A3000ABDD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
